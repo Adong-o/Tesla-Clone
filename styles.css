@@ -1,0 +1,819 @@
+.logo img {
+    height: 20px; 
+    margin-bottom: -30px;
+}
+#bs-navbar {
+    font-weight: bold;
+}
+
+.stick {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    
+}
+
+.video-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  /* Styling for the video */
+  .video-section video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Styling for the text overlay */
+  .video-section .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -10px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Styling for the text */
+  .video-section .title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .video-section .subtitle {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .video-section .button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .button:hover {
+    background-color: white;
+    color: #333;
+    transition: 2s;
+  }
+  /*
+  .video-section>.overlay>h1 {
+    margin-top: -10px;
+    font-weight: bold;
+  }
+*/
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .video-section .title {
+      font-size: 36px;
+    }
+
+    .video-section .subtitle {
+      font-size: 24px;
+    }
+
+    .video-section .button {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
+
+  /*model 3 */
+
+  .image-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url("./images/model\ 3.webp") no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  /* Styling for the title and subtitle */
+  .image-section .title {
+    font-size: 36px;
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+  }
+
+  .image-section .subtitle {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+  }
+
+  /* Styling for the buttons */
+  .image-section .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+
+  .image-section .button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    margin: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .image-section .button:hover {
+    background-color: #333;
+    color: #fff;
+    transition: 2s;
+  }
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .image-section .title {
+      font-size: 28px;
+    }
+
+    .image-section .subtitle {
+      font-size: 20px;
+    }
+
+    .image-section .button {
+      font-size: 16px;
+      padding: 8px 16px;
+      margin: 13px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .image-section .title {
+      font-size: 24px;
+    }
+
+    .image-section .subtitle {
+      font-size: 18px;
+    }
+
+    .image-section .button {
+      font-size: 14px;
+      padding: 6px 12px;
+      margin: 12px;
+    }
+  }
+
+  /*model y*/
+
+  .image-section1 {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url("./images/model\ y.webp") no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  /* Styling for the title and subtitle */
+  .image-section1 .title {
+    font-size: 36px;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+  }
+
+  .image-section1 .subtitle {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+  }
+
+  /* Styling for the buttons */
+  .image-section1 .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+
+  .image-section1 .button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    margin: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .image-section1 .button:hover {
+    background-color: #333;
+    color: #fff;
+    transition: 2s;
+  }
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .image-section1 .title {
+      font-size: 28px;
+    }
+
+    .image-section1 .subtitle {
+      font-size: 20px;
+    }
+
+    .image-section1 .button {
+      font-size: 16px;
+      padding: 8px 16px;
+      margin: 13px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .image-section1 .title {
+      font-size: 24px;
+    }
+
+    .image-section1 .subtitle {
+      font-size: 18px;
+    }
+
+    .image-section1 .button {
+      font-size: 14px;
+      padding: 6px 12px;
+      margin: 12px;
+    }
+  }
+
+  /*model s*/
+
+  .image-section2 {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url("./images/model\ s.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  /* Styling for the title and subtitle */
+  .image-section2 .title {
+    font-size: 36px;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+  }
+
+  .image-section2 .subtitle {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+  }
+
+  /* Styling for the buttons */
+  .image-section2 .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+
+  .image-section2 .button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    margin: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .image-section2 .button:hover {
+    background-color: #333;
+    color: #fff;
+    transition: 2s;
+  }
+  a{
+    text-decoration: underline;
+    color: #fff;
+    
+  }
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .image-section2 .title {
+      font-size: 28px;
+    }
+
+    .image-section2 .subtitle {
+      font-size: 20px;
+    }
+
+    .image-section2 .button {
+      font-size: 16px;
+      padding: 8px 16px;
+      margin: 13px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .image-section2 .title {
+      font-size: 24px;
+    }
+
+    .image-section2 .subtitle {
+      font-size: 18px;
+    }
+
+    .image-section2 .button {
+      font-size: 14px;
+      padding: 6px 12px;
+      margin: 2px;
+    }
+  }
+
+  /*Model X*/
+
+  .image-section3 {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url("./images/model\ x.jpeg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  /* Styling for the title and subtitle */
+  .image-section3 .title {
+    font-size: 36px;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+  }
+  
+  .image-section3 .subtitle {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Styling for the buttons */
+  .image-section3 .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 120px;
+  }
+  
+  .image-section3 .button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-section3 .button:hover {
+    background-color: #333;
+    color: #fff;
+    transition: 2s;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .image-section3 .title {
+      font-size: 28px;
+    }
+  
+    .image-section3 .subtitle {
+      font-size: 20px;
+    }
+  
+    .image-section3 .button {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .image-section3 .title {
+      font-size: 24px;
+    }
+  
+    .image-section3 .subtitle {
+      font-size: 18px;
+    }
+  
+    .image-section3 .button {
+      font-size: 14px;
+      padding: 6px 12px;
+    }
+  }
+  
+  /*Solar Panel*/
+
+  .image-section4 {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("./images/solar\ panel.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  /* Styling for the title */
+  .image-section4 .title {
+    font-size: 36px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  /* Styling for the underlined linked subtitle */
+  .image-section4 .subtitle {
+    font-size: 24px;
+    color: #1c1919;
+    font-family: monospace;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  /* Styling for the buttons container */
+  .image-section4 .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+  }
+
+  /* Styling for the buttons */
+  .image-section4 .button {
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  /* Additional styles for the left button */
+  .image-section4 .button.left-button {
+    background-color: #fff;
+    color: #333;
+  }
+
+  /* Additional styles for the right button */
+  .image-section4 .button.right-button {
+    background-color: #333;
+    color: #fff;
+  }
+  @media (max-width: 768px) {
+    .image-section4 .title {
+      font-size: 28px;
+    }
+
+    .image-section4 .subtitle {
+      font-size: 20px;
+    }
+
+    .image-section4 .button {
+      font-size: 16px;
+      padding: 8px 16px;
+      margin: 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .image-section4 .title {
+      font-size: 24px;
+    }
+
+    .image-section4 .subtitle {
+      font-size: 18px;
+    }
+
+    .image-section4 .button {
+      font-size: 14px;
+      padding: 6px 12px;
+      margin: 3px;
+    }
+}
+
+/*Solar Roof*/
+
+.image-section5 {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("./images/solar\ roof.webp") no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  /* Styling for the title */
+  .image-section5 .title {
+    font-size: 36px;
+    color: #0e0d0d;
+    text-align: center;
+  }
+
+  /* Styling for the underlined linked subtitle */
+  .image-section5 .subtitle {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  /* Styling for the buttons container */
+  .image-section5 .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+  }
+
+  /* Styling for the buttons */
+  .image-section5 .button {
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  /* Additional styles for the left button */
+  .image-section5 .button.left-button {
+    background-color: #fff;
+    color: #333;
+  }
+
+  /* Additional styles for the right button */
+  .image-section5 .button.right-button {
+    background-color: #333;
+    color: #fff;
+  }
+  @media (max-width: 768px) {
+    .image-section5 .title {
+      font-size: 28px;
+    }
+
+    .image-section5 .subtitle {
+      font-size: 20px;
+    }
+
+    .image-section5 .button {
+      font-size: 16px;
+      padding: 8px 16px;
+      margin: 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .image-section5 .title {
+      font-size: 24px;
+    }
+
+    .image-section5 .subtitle {
+      font-size: 18px;
+    }
+
+    .image-section5 .button {
+      font-size: 14px;
+      padding: 6px 12px;
+      margin: 13px;
+    }
+}
+
+/*powerwall*/
+
+.image-section6 {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("./images/powerwall.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  /* Styling for the title */
+  .image-section6 .title {
+    font-size: 46px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  /* Styling for the underlined linked subtitle */
+  .image-section6 .subtitle {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  /* Styling for the buttons container */
+  .image-section6 .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+  }
+
+  /* Styling for the buttons */
+  .image-section6 .button {
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  /* Additional styles for the left button */
+  .image-section6 .button.left-button {
+    background-color: #fff;
+    color: #333;
+  }
+
+  /* Additional styles for the right button */
+  .image-section6 .button.right-button {
+    background-color: #333;
+    color: #fff;
+  }
+  @media (max-width: 768px) {
+    .image-section6 .title {
+      font-size: 28px;
+    }
+
+    .image-section6 .subtitle {
+      font-size: 20px;
+    }
+
+    .image-section6 .button {
+      font-size: 16px;
+      padding: 8px 16px;
+      margin: 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .image-section6 .title {
+      font-size: 24px;
+    }
+
+    .image-section6 .subtitle {
+      font-size: 18px;
+    }
+
+    .image-section6 .button {
+      font-size: 14px;
+      padding: 6px 12px;
+      margin: 3px;
+    }
+}
+
+/*Accessories*/
+.image-section7 {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("./images/accessories.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  /* Styling for the title */
+  .image-section7 .title {
+    font-size: 46px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  /* Styling for the underlined linked subtitle */
+  .image-section7 .subtitle {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  /* Styling for the buttons container */
+  .image-section7 .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+  }
+
+  /* Styling for the buttons */
+  .image-section7 .button {
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  /* Additional styles for the left button */
+  .image-section7 .button.left-button {
+    background-color: #fff;
+    color: #333;
+  }
+
+  /* Additional styles for the right button */
+  .image-section7 .button.right-button {
+    background-color: #333;
+    color: #fff;
+  }
+  @media (max-width: 768px) {
+    .image-section7 .title {
+      font-size: 28px;
+    }
+
+    .image-section7 .subtitle {
+      font-size: 20px;
+    }
+
+    .image-section7 .button {
+      font-size: 16px;
+      padding: 8px 16px;
+      margin: 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .image-section7 .title {
+      font-size: 24px;
+    }
+
+    .image-section7 .subtitle {
+      font-size: 18px;
+    }
+
+    .image-section7 .button {
+      font-size: 14px;
+      padding: 6px 12px;
+      margin: 13px;
+    }
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  /* Styling for the footer links */
+  .footer-links {
+    margin-top: 10px;
+  }
+
+  .footer-links a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
